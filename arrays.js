@@ -34,5 +34,10 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
   array.shift();
   return array;
 }
-
+function removeElementFromBeginningOfArray(array){
+  //should return the entire array and should not mutate original array
+  array.slice(1);
+  return array;
+  
+}
 
