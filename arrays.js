@@ -21,6 +21,6 @@ array= [...array,element];
 
 function destructivelyAddElementToEndOfArray(array,element){
   //should alter the original array
-  array=[array.push(element)];
+  array.push(element)
   return array;
 }
